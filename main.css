@@ -1,0 +1,13 @@
+body{
+    font-size: 25px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #181D31;
+}
+
+@font-face{
+    font-family: 'Sugar Snow';
+    src: url(/source/sugar_snow/Sugar-Snow.off);
+}
+
+/* IMAGE */
