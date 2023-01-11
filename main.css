@@ -97,6 +97,7 @@ form{
     background-color: #E9DAC1;
     height: 200px;
     padding: 30px 30px 70px 30px;
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 .inputs{
@@ -123,6 +124,29 @@ form{
 .sline,
 .tline{
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 
+/* BUTTON */
+
+.submit-button{
+    padding: 15px 40px;
+}
+
+.submit-button button{
+    background-color: #456268;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 200px;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.submit-button #log-in{
+    margin: 10px 0;
+    font-size: 15px;
+}
