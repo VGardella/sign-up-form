@@ -77,6 +77,10 @@ html, body{
     justify-content: end;
 }
 
+form{
+    height: 100%;
+}
+
 .first-paragraph,
 .second-paragraph{
     padding: 10px 0;
@@ -122,8 +126,3 @@ html, body{
     gap: 40px;
 }
 
-/* BUTTON */
-
-.submit-button{
-    
-}
