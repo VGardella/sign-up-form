@@ -20,7 +20,7 @@ html, body{
 }
 
 .background-image{
-    width: 50%;
+    width: 35%;
     overflow: hidden;
     position: relative;
 }
@@ -59,5 +59,65 @@ html, body{
     color: #FFFFFF;
     text-align: center;
     bottom: 0;
+}
+
+/* FORM */
+
+.form-container{
+    width: 65%;
+}
+
+.presentation{
+    height: 30%;
+    background-color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.first-paragraph,
+.second-paragraph{
+    padding: 10px 0;
+    color: #181D31;
+}
+
+.form{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset-container{
+    background-color: #E9DAC1;
+    height: 200px;
+    padding: 30px 30px 70px 30px;
+}
+
+.inputs{
+    padding: 30px;
+    border: 2px solid #aca18f;
+    border-radius: 5px;
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first, .second, .third,
+.fourth, .fifth, .sixth{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 15px;
+}
+
+.fline,
+.sline,
+.tline{
+    display: flex;
+    gap: 40px;
 }
 
