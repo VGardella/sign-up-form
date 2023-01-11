@@ -27,29 +27,43 @@
             </div>
             <div class="form">
                 <form action="" method="POST">
-                    <fieldset>
-                        <legend>Let's do this!</legend>
-                        <div class="inputs-container">
-                            <div class="fline">
-                                <label for="fname">First Name</label>
-                                <input type="text" name="fname" required>
-                                <label for="lname">Last Name</label>
-                                <input type="text" name="lname" required>
+                    <div class="fieldset-container">
+                        <fieldset class="inputs">
+                            <legend>Let's do this!</legend>
+                            <div class="inputs-container">
+                                <div class="fline">
+                                    <div class="first">
+                                        <label for="fname">First Name</label>
+                                        <input type="text" name="fname" required>
+                                    </div>
+                                    <div class="second">
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" name="lname" required>
+                                    </div>
+                                </div>
+                                <div class="sline">
+                                    <div class="third">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" required>
+                                    </div>
+                                    <div class="fourth">
+                                        <label for="phone">Phone number</label>
+                                        <input type="phone" name="phone">
+                                    </div>
+                                </div>
+                                <div class="tline">
+                                    <div class="fifth">
+                                        <label for="pass">Password</label>
+                                        <input type="password" name="pass" required>
+                                    </div>
+                                    <div class="sixth">
+                                        <label for="pass2">Confirm Password</label>
+                                        <input type="password" name="pass2" required>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="sline">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" required>
-                                <label for="phone">Phone number</label>
-                                <input type="phone" name="phone">
-                            </div>
-                            <div class="tline">
-                                <label for="pass">Password</label>
-                                <input type="password" name="pass" required>
-                                <label for="pass2">Confirm Password</label>
-                                <input type="password" name="pass2" required>
-                            </div>
-                        </div>
-                    </fieldset>
+                        </fieldset>
+                    </div>
                     <div class="submit-button">
                         <button type="submit">Create Account</button>
                         <p id="log-in">Already have an account? Log in</p>
