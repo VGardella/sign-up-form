@@ -95,13 +95,13 @@ form{
 
 .fieldset-container{
     background-color: #E9DAC1;
-    height: 200px;
+    height: 210px;
     padding: 30px 30px 70px 30px;
     box-shadow: 5px 5px 5px lightgray;
 }
 
 .inputs{
-    padding: 30px;
+    padding: 25px;
     border: 2px solid #aca18f;
     border-radius: 5px;
 }
@@ -110,6 +110,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 0 20px;
 }
 
 .first, .second, .third,
