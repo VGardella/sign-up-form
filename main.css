@@ -109,6 +109,7 @@ form{
 .inputs-container{
     display: flex;
     flex-direction: column;
+    height: 160px;
     gap: 10px;
     padding: 0 20px;
 }
@@ -118,7 +119,7 @@ form{
     display:flex;
     flex-direction: column;
     width: 300px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .fline,
@@ -126,6 +127,32 @@ form{
 .tline{
     display: flex;
     gap: 50px;
+    height: 50px;
+}
+
+
+/* INPUT BOXES */
+
+label{
+    text-transform: uppercase;
+    color: #867a65;
+    letter-spacing: 1px;
+}
+
+
+
+input{
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid #867a65;
+}
+
+input:hover{
+    border: 2px solid #456268;
+}
+
+input:active{
+    appearance: none;
 }
 
 /* BUTTON */
